@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 10;
+    margin: 0;
 }
 
 
@@ -18,31 +18,44 @@ main{
 header{
     opacity: 0.8;
     background-image: url(../kepek/fejlec.jpg);
-    height: 550px;
+    height: 150px;
     color: red;
     font-weight: bold;
     font-family: cursive;
-    padding: 60px;
     text-align: center;
 }
+
 aside img{
+    width: 100px;
     
 }
-
-nav{
-    background-color: red;
-    height: 50px;
+aside{
     display: grid;
-    grid-template-rows: auto;
-
+    grid-template-columns: auto;
 }
 nav{
+    
     border-top: 1rem;
     border-bottom: 1rem;
     border-style: solid;
     border-color: white;
-    padding: 5px;
+    text-align: center;
+    
+    
+    
+
+}
+nav li{
+    
+    display: inline-block;
     list-style-type: none;
+    
+
+}
+nav ul{
+    background-color: red;
+    padding: 20px;
+    
 
 }
 nav:hover{
@@ -53,6 +66,8 @@ article{
 
     text-align: justify;
     font-size: 10px;
+    display: flex;
+    overflow: auto;
     
 }
 article h2{
@@ -61,7 +76,10 @@ article h2{
     font-size: 15px;
 }
 article img{
-    float: right;
+    float: left;
     border-radius: 1px;
     box-shadow: 5px 5px 10px black;
+}
+article p{
+    padding: 10px;
 }
