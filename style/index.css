@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10;
+}
+
+
+body{
+    background-image: url(../kepek/hatter.jpg);
+    
+}
+main{
+    width: 80%;
+    max-width: 1000px;
+    
+    background-color: rgb255, rgb(255, 255, 230);
+}
+header{
+    opacity: 0.8;
+    background-image: url(../kepek/fejlec.jpg);
+    height: 550px;
+    color: red;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 60px;
+    text-align: center;
+}
+aside img{
+    
+}
+
+nav{
+    background-color: red;
+    height: 50px;
+    display: grid;
+    grid-template-rows: auto;
+
+}
+nav{
+    border-top: 1rem;
+    border-bottom: 1rem;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+    list-style-type: none;
+
+}
+nav:hover{
+    background-color: green;
+
+}
+article{
+
+    text-align: justify;
+    font-size: 10px;
+    
+}
+article h2{
+    color: #ff1a1a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+article img{
+    float: right;
+    border-radius: 1px;
+    box-shadow: 5px 5px 10px black;
+}
