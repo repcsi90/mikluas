@@ -7,18 +7,19 @@
 
 body{
     background-image: url(../kepek/hatter.jpg);
+    padding: 20px;
     
 }
 main{
-    width: 80%;
+    width: 100;
     max-width: 1000px;
-    
     background-color: rgb255, rgb(255, 255, 230);
 }
 header{
     opacity: 0.8;
     background-image: url(../kepek/fejlec.jpg);
-    height: 150px;
+    height: 300px;
+    background-size: cover;
     color: red;
     font-weight: bold;
     font-family: cursive;
@@ -43,6 +44,7 @@ nav{
     
     
     
+    
 
 }
 nav li{
@@ -50,11 +52,12 @@ nav li{
     display: inline-block;
     list-style-type: none;
     
+    
 
 }
 nav ul{
     background-color: red;
-    padding: 20px;
+    padding: 20px;    
     
 
 }
